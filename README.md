@@ -1,15 +1,15 @@
 # CRUD feito com GOLANG e MYSQL para controle de feiras livres da cidade de São Paulo
-Primeiro passo é editar o arquivo start.sh para definir as variáveis de ambiente do projeto:
+Primeiro passo é criar um arquivo .env para definir as variáveis de ambiente do projeto:
 ```
-SERVER_ADDRESS=localhost \
-SERVER_PORT=8000 \
-DB_USER=admin \
-DB_PASSWD=123456 \
-DB_ADDR=localhost \
-DB_PORT=3306 \
-DB_NAME=unico \
-LOG_FILE_LOCATION=../../logs \
-APP_NAME=unico \
+SERVER_ADDRESS=localhost
+SERVER_PORT=8000
+DB_USER=admin
+DB_PASSWD=123456
+DB_ADDR=localhost
+DB_PORT=3306
+DB_NAME=unico
+LOG_FILE_LOCATION=../../logs
+APP_NAME=unico
 FILE_NAME=DEINFO_AB_FEIRASLIVRES_2014
 ```
 Segundo passo rodar o start.sh
