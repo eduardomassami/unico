@@ -12,7 +12,14 @@ LOG_FILE_LOCATION=../../logs
 APP_NAME=unico
 FILE_NAME=DEINFO_AB_FEIRASLIVRES_2014
 ```
-Segundo passo rodar o start.sh
+Segundo passo editar o start.sh e colocar as variáveis para importação da planilha
+```
+DB_USER=admin \
+DB_PASSWD=123456 \
+DB_NAME=unico \
+FILE_NAME=DEINFO_AB_FEIRASLIVRES_2014 \
+```
+Com todas as variáveis criadas, execute o start.sh
 ```
 $ ./start.sh
 ```
