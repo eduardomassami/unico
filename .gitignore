@@ -17,6 +17,6 @@
 .env
 .vscode/
 __debug_bin
-/logs/*
+*.log
 /mocks/*
 coverage.*
